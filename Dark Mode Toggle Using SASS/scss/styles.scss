@@ -1,0 +1,21 @@
+@import 'variables';
+
+body {
+    font-family: $font-family;
+    transition: background-color 0.3s, color 0.3s;
+
+    &.dark-mode {
+        background-color: $dark-background-color;
+        color: $dark-text-color;
+    }
+}
+
+button {
+    margin: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: $primary-color;
+    color: #fff;
+    cursor: pointer;
+}
